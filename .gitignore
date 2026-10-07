@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Datasets
+01_raw_data/
+02_processed_data/
+03_annotations/
+03_split_data/
+04_final_dataset/
+04_final_dataset_small/
+
+# Large models and checkpoints
+05_models/
+06_checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Generated results
+07_results/
+*.mp4
+*.avi
+
+# Demo videos
+08_demo_video/*.mp4
+08_demo_video/*.avi
+
+# Python cache
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

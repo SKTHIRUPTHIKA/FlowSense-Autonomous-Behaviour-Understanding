@@ -1,0 +1,5 @@
+path: C:/Users/rsani/OneDrive/Documents/FlowSense/04_final_dataset_small
+train: train/images
+val: val/images
+names:
+  0: person
